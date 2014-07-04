@@ -47,6 +47,8 @@ The following modules are exposed:
 
 ## Release History
 
+- **v0.0.2**, *04 Jul 2014*
+    - bug fixes
 - **v0.0.1**, *04 Jul 2014*
     - Big Bang
 
