@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "crude-test-case",
   "version": "0.0.1",
   "main": "./lib/crude-test-case.base",
