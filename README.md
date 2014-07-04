@@ -13,6 +13,7 @@ Install the module using NPM:
 ```
 npm install crude-test-case --save
 ```
+
 ## <a name='TOC'>Table of Contents</a>
 
 1. [Overview](#overview)
@@ -20,17 +21,33 @@ npm install crude-test-case --save
 
 ## Overview
 
-Lorem ipsum trololol.
+The following modules are exposed:
 
-## API
+#### Tester Libs
 
-One more to go back without onez has together we know!
+    * `db` Database helpers (`db.nuke()`).
+    * `libUser` Setups and teardowns user records to test against (`libUser.createUser()`).
+    * `tester` Generic tester bootstrap library, required by all tests.
+    * `web` Supertest initializer.
+
+#### Fixtures
+
+    * `fixUser` User fixtures.
+
+#### Stub Express App
+
+    * `bootstrap` The stub express application bootstrap file.
+    * `Database` Connection manager.
+    * `expressApp` The express application module.
+    * `UserCtrl` The user crude controller.
+    * `UserEnt` The user entity.
+    * `UserMongoose` The user mongoose model.
 
 **[[⬆]](#TOC)**
 
 ## Release History
 
-- **v0.0.1**, *TBD*
+- **v0.0.1**, *04 Jul 2014*
     - Big Bang
 
 ## License
