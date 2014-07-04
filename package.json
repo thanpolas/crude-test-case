@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "crude-test-case",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/crude-test-case.base",
   "description": "The test case of the crude package.",
   "homepage": "https://github.com/thanpolas/crude-test-case",
