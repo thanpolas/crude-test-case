@@ -1,28 +1,17 @@
-# __proto__
+# crude-test-case
 
-> Clone, edit, hack. An opinionated boilerplate for Node Libraries.
+> The test case of the [crude package](https://github.com/thanpolas/crude).
 
-[![Build Status](https://secure.travis-ci.org/thanpolas/__proto__.png?branch=master)](http://travis-ci.org/thanpolas/__proto__)
+Beware, this is for internal use by crude and plugins.
 
-To use, simply Clone, Enter directory, delete `.git` folder and start over:
-
-```shell
-git clone git@github.com:thanpolas/__proto__.git
-cd __proto__
-rm -rf .git
-git init
-git add .
-git commit "Boot!"
-```
-
-Boilerplate OSS follows...
+[![Build Status](https://secure.travis-ci.org/thanpolas/crude-test-case.png?branch=master)](http://travis-ci.org/thanpolas/crude-test-case)
 
 ## Install
 
 Install the module using NPM:
 
 ```
-npm install YADDAYADDA --save
+npm install crude-test-case --save
 ```
 ## <a name='TOC'>Table of Contents</a>
 
