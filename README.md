@@ -14,12 +14,28 @@ Install the module using NPM:
 npm install crude-test-case --save
 ```
 
-## <a name='TOC'>Table of Contents</a>
-
-1. [Overview](#overview)
-1. [API](#api)
-
 ## Overview
+
+Quick hands on:
+
+```js
+var testlib = require('crude-test-case');
+testlib.setCrude(require('crude'));
+
+var tester = testlib.tester;
+var Web = testlib.Web;
+
+describe('Create OPs', function() {
+  this.timeout(5000);
+
+  // Init but not with DB
+  tester.init(false);
+
+  /* ... */
+});
+
+The `tester.init()` method accepts one argument, a boolean indicating weather the DB should be initialized too.
+
 
 The following modules are exposed:
 
