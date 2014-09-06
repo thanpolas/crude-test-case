@@ -63,7 +63,10 @@ The following modules are exposed:
 
 ## Release History
 
-- **v0.0.3**, *05 Jul 2014*
+- **v0.0.4**, *06 Sep 2014*
+    - Make express app rebootable.
+    - Express 4.0 compat.
+- **v0.0.3**, *06 Sep 2014*
     - Stub booting of User Controller and Entity, boot only Express App Bare.
 - **v0.0.2**, *04 Jul 2014*
     - bug fixes
