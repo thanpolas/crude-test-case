@@ -6,6 +6,14 @@ module.exports = function (grunt) {
 
   // Project configuration.
   grunt.initConfig({
+
+    jshint: {
+      options: {
+        jshintrc: true,
+      },
+      lib: ['lib/**/*.js'],
+    },
+
     release: {
       options: {
         bump: true, //default: true
