@@ -1,6 +1,6 @@
 {
   "name": "crude-test-case",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "./lib/crude-test-case.base",
   "description": "The test case of the crude package.",
   "homepage": "https://github.com/thanpolas/crude-test-case",
