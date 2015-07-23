@@ -63,7 +63,7 @@ The following modules are exposed:
 
 ## Release History
 
-- **v0.0.5**, *23 Jul 2015*
+- **v0.0.6**, *23 Jul 2015*
     - Upgrade all dependencies to latest.
 - **v0.0.4**, *06 Sep 2014*
     - Make express app rebootable.
